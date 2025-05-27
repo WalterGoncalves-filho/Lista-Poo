@@ -1,4 +1,4 @@
-package Lista4.q_1;
+package Lista4.Questao1;
 
 public abstract class Dispositivos {
     
@@ -10,34 +10,12 @@ public abstract class Dispositivos {
     protected int cod;
 
 
-    public String getNome() {
-        return nome;
-    }
-
-
-    public String getModelo() {
-        return modelo;
-    }
-
-
-    public String getMarca() {
-        return marca;
-    }
-
-
-    public String getPaisOrigem() {
-        return paisOrigem;
-    }
-
-
-    public float getPreco() {
-        return preco;
-    }
-
-
-    public int getCod() {
-        return cod;
-    }
+    public String getNome() { return nome; }
+    public String getModelo() { return modelo; }
+    public String getMarca() { return marca; }
+    public String getPaisOrigem() { return paisOrigem; }
+    public float getPreco() { return preco; }
+    public int getCod() { return cod; }
 
 
     public Dispositivos(String nome, String modelo, String marca, String paisOrigem, float preco, int cod) {
