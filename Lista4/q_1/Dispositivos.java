@@ -1,3 +1,4 @@
+package Lista4.q_1;
 
 public abstract class Dispositivos {
     
@@ -39,7 +40,13 @@ public abstract class Dispositivos {
     }
 
 
-    public Dispositivos(String nome, String modelo, string marca, String paisOrigem, foat preco, id cod ) {
+    public Dispositivos(String nome, String modelo, String marca, String paisOrigem, float preco, int cod) {
+        this.nome = nome;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.paisOrigem = paisOrigem;
+        this.preco = preco;
+        this.cod = cod;
     }
 
 

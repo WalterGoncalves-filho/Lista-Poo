@@ -1,2 +1,0 @@
-
-Você foi contratado pela Loja Virtual "TechGadgets" para desenvolver um sistema de produtos eletrônicos. A loja vende smartphones, notebooks e smartwatches (que possuem funcionalidades exclusivas). Implemente os conceitos de classes, objetos, abstração, encapsulamento, herança e polimorfismo para construir esse sistema em Java.
