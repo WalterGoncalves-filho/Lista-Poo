@@ -1,4 +1,4 @@
-package estoque;
+package Lista5.Questao2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
