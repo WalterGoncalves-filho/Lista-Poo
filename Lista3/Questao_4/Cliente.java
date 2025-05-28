@@ -1,5 +1,4 @@
 package Lista3.Questao_4;
-import Lista3.Questao_4.Pedido;
 
 public class Cliente{
     private String nome;

@@ -3,7 +3,8 @@ package Lista4.Questao1;
 public class Notebook extends Dispositivos{
 
     private int ram;   private String processador;
-  
+    
+    public Notebook(){}
     public Notebook(String nome, String modelo, String marca, String paisOrigem, float preco, int cod, int ram,
             String processador) {
         super(nome, modelo, marca, paisOrigem, preco, cod);
