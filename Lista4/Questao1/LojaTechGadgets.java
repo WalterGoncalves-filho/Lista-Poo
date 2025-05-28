@@ -82,9 +82,6 @@ public class LojaTechGadgets {
         System.out.print("Digite o codigo do aparelho: "); 
         int cod = input.nextInt();
 
-        System.out.print("Digite a capacidade de memoria ROM: "); 
-        int memoria = input.nextInt();
-
         smartphone.add(new Smartphone(nome, modelo, marca, pais_origem, preco, cod));
 
     }
