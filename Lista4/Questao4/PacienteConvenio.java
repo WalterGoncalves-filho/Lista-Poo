@@ -3,7 +3,6 @@ package Lista4.Questao4;
 public class PacienteConvenio extends Paciente {
     private String nomeConvenio;
 
-    public paciente(){}
     public PacienteConvenio(String nome, String cpf, int idade, String nomeConvenio) {
         super(nome, cpf, idade);
         this.nomeConvenio = nomeConvenio;

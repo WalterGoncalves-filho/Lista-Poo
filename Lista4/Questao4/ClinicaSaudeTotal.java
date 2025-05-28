@@ -3,11 +3,11 @@ package Lista4.Questao4;
 public class ClinicaSaudeTotal {
 
     public static void main(String[] args) {
-        PacienteVIP paciente1 = new PacienteComum("Carlos Silva", "123.456.789-00", 40);
-        PacienteVIP paciente2 = new PacienteVIP("Ana Maria", "987.654.321-00", 35);
-        PacienteVIP paciente3 = new PacienteConvenio("José Souza", "555.666.777-88", 50, "Unimed");
+        Paciente paciente1 = new PacienteComum("Carlos", "074", 54);
+        Paciente paciente2 = new PacienteVIP("nome", "cpf",18);
+        Paciente paciente3 = new PacienteConvenio("José Souza", "555.666.777-88", 50, "Unimed");
 
-        System.out.println("--- Paciente Comum ---");
+        System.out.println("\n\n--- Paciente Comum ---");
         paciente1.exibirInfo();
         paciente1.agendarConsulta();
 

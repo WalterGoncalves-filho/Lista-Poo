@@ -1,6 +1,6 @@
 package Lista4.Questao4;
 
-public class PacienteComum extends PacienteVIP {
+public class PacienteComum extends Paciente {
 
     public PacienteComum(String nome, String cpf, int idade) {
         super(nome, cpf, idade);
@@ -12,4 +12,3 @@ public class PacienteComum extends PacienteVIP {
         System.out.println("Valor da consulta: R$ 200,00.");
     }
 }
-

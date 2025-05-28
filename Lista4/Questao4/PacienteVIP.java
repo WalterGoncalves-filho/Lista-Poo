@@ -1,35 +1,22 @@
 package Lista4.Questao4;
 
-public abstract class PacienteVIP {
-    private String nome;
-    private String cpf;
-    private int idade;
+public class PacienteVIP extends Paciente {
 
     public PacienteVIP(String nome, String cpf, int idade) {
-        this.nome = nome;
-        this.cpf = cpf;
-        this.idade = idade;
+        super(nome, cpf, idade);
     }
 
-    public String getNome() {
-        return nome;
+    @Override
+    public void agendarConsulta() {
+        System.out.println("Consulta agendada para paciente VIP " + getNome() + ".");
+        System.out.println("Valor da consulta com desconto VIP (30%): R$ " + calcularValorComDesconto());
+        System.out.println("Benefício: atendimento prioritário e sala VIP.");
     }
 
-    public String getCpf() {
-        return cpf;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public abstract void agendarConsulta();
-
-
-    public void exibirInfo() {
-        System.out.println("Nome: " + nome);
-        System.out.println("CPF: " + cpf);
-        System.out.println("Idade: " + idade);
+    private double calcularValorComDesconto() {
+        double valorOriginal = 200.0;
+        double desconto = valorOriginal * 0.30;
+        return valorOriginal - desconto;
     }
 }
 

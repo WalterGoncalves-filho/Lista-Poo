@@ -23,14 +23,11 @@ public abstract class Paciente {
         return idade;
     }
 
-    // Método abstrato para agendar consulta, com possíveis regras e benefícios diferentes
     public abstract void agendarConsulta();
 
-    // Método para exibir informações básicas
     public void exibirInfo() {
         System.out.println("Nome: " + nome);
         System.out.println("CPF: " + cpf);
         System.out.println("Idade: " + idade);
     }
 }
-
