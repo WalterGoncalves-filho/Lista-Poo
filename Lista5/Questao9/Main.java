@@ -3,11 +3,11 @@ package Lista5.Questao9;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Main {
+public class Main {   
+    static Scanner scanner = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         Hotel hotel = new Hotel(); 
-
         int opcao;
         do {
             System.out.println("\n=== Sistema de Reservas do Hotel ===");

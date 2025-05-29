@@ -2,8 +2,8 @@ package Lista5.Questao1;
 import java.util.Scanner;
 
 public class SistemasNotas{
+    static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         Aluno aluno = new Aluno("Maria", 5);
 
         System.out.println();
