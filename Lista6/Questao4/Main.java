@@ -2,8 +2,8 @@ package Lista6.Questao4;
 import java.util.Scanner;
 
 public class Main {
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o título do livro:");
         String titulo = scanner.nextLine();
